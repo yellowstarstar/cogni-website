@@ -448,7 +448,17 @@ function applyLanguage(lang) {
   }
 }
 
-const preferred = localStorage.getItem('preferredLang') || 'en';
+
+// 根據 domain 自動切換預設語言
+function detectDefaultLang() {
+  const host = window.location.hostname;
+  if (host.endsWith('.com.hk')) return 'zh-TW';
+  if (host.endsWith('.com.cn')) return 'zh-CN';
+  if (host.endsWith('.com')) return 'en';
+  return 'en';
+}
+
+const preferred = localStorage.getItem('preferredLang') || detectDefaultLang();
 langSwitch.value = preferred;
 applyLanguage(preferred);
 
