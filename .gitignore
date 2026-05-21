@@ -1,0 +1,5 @@
+# Generated history/export artifacts
+history-*.txt
+history-*.doc
+history-*.jsonl
+data-storage-and-processing-spec-*.doc
