@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登入 | 敏捷實施法門戶</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell center">
+      <section class="card form-card">
+        <h1>登入</h1>
+        <p>僅「企業郵箱驗證成功且審核通過」的用戶可成功登入。</p>
+        <p class="tip">To C 個人用戶產品註冊請前往 cogni-coding.com。</p>
+
+        <form id="login-form" class="form-grid">
+          <label>
+            郵箱
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            密碼
+            <input type="password" name="password" required />
+          </label>
+          <button class="btn primary" type="submit">登入</button>
+        </form>
+
+        <p id="login-msg" class="msg"></p>
+        <div class="actions">
+          <a class="btn" href="./register.html">先註冊</a>
+          <a class="btn subtle" href="./index.html">返回入口</a>
+          <a class="btn" href="https://cogni-coding.com" target="_blank" rel="noreferrer">To C 個人用戶入口</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

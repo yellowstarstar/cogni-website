@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>審核後台 | 敏捷實施法門戶</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="card">
+        <h1>審核後台（原型）</h1>
+        <p>以下為「已完成企業郵箱驗證」的待審核申請。核准後，用戶可登入或啟用合作流程。</p>
+        <h2>To B 企業客戶待審核</h2>
+        <div id="pending-list" class="review-list"></div>
+        <h2>原廠合作待審核</h2>
+        <div id="pending-manufacturer-list" class="review-list"></div>
+        <p class="tip">
+          提示：此為本地原型，正式上線請改為後端資料庫與真正的管理員權限控管。
+        </p>
+        <div class="actions">
+          <a class="btn" href="./index.html">返回入口</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

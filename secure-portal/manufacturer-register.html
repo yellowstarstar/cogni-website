@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>原廠合作註冊 | 敏捷實施法門戶</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell center">
+      <section class="card form-card">
+        <h1>原廠合作註冊</h1>
+        <p>此入口供原廠合作夥伴申請使用，提交後需完成企業郵箱驗證並等待審核通過。</p>
+
+        <form id="manufacturer-register-form" class="form-grid">
+          <label>
+            聯絡人姓名
+            <input type="text" name="fullName" required />
+          </label>
+          <label>
+            公司全名
+            <input type="text" name="company" required />
+          </label>
+          <label>
+            在企業的職位
+            <input type="text" name="jobTitle" required />
+          </label>
+          <label>
+            企業座機
+            <input type="text" name="officePhone" required />
+          </label>
+          <label>
+            手機
+            <input type="text" name="mobilePhone" required />
+          </label>
+          <label>
+            企業郵箱
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            國家/地區
+            <select name="region" required>
+              <option value="中國香港">中國香港</option>
+              <option value="中國大陸">中國大陸</option>
+              <option value="其他">其他</option>
+            </select>
+          </label>
+          <label>
+            合作方向（可選）
+            <input type="text" name="cooperationFocus" placeholder="例如：OEM 模組整合、渠道聯合方案" />
+          </label>
+          <label>
+            登入密碼
+            <input type="password" name="password" minlength="6" required />
+          </label>
+          <button class="btn primary" type="submit">提交原廠合作申請</button>
+        </form>
+
+        <p id="manufacturer-register-msg" class="msg"></p>
+
+        <hr class="split" />
+
+        <h2>企業郵箱驗證</h2>
+        <p class="tip">輸入企業郵箱與驗證碼。驗證成功後，申請才會進入待審核。</p>
+        <form id="manufacturer-verify-form" class="form-grid">
+          <label>
+            企業郵箱
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            驗證碼
+            <input type="text" name="code" minlength="6" maxlength="6" required />
+          </label>
+          <button class="btn primary" type="submit">驗證企業郵箱</button>
+        </form>
+        <p id="manufacturer-verify-msg" class="msg"></p>
+
+        <div class="actions">
+          <a class="btn" href="./manufacturer-login.html">原廠合作登入</a>
+          <a class="btn" href="./admin-review.html">前往審核後台</a>
+          <a class="btn subtle" href="./index.html">返回入口</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

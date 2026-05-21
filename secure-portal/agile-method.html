@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>敏捷實施法流程圖</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="card">
+        <div class="top-bar">
+          <div>
+            <p class="badge">Authorized View</p>
+            <h1>敏捷實施法流程圖</h1>
+          </div>
+          <button id="logout-btn" class="btn">登出</button>
+        </div>
+
+        <div class="flow-steps">
+          <article class="flow-step">
+            <h2>STEP 01：諮詢評估 (Consultation)</h2>
+            <p>針對服務範圍內的問題流程提出初步流程改進方案。</p>
+            <p><strong>交付物：</strong>《問題流程改進建議》</p>
+            <p><strong>核心優勢：</strong>低成本啟動，先小額諮詢即可獲得務實改進方向。</p>
+          </article>
+
+          <article class="flow-step">
+            <h2>STEP 02：需求分析、流程重構與方案設計 (Requirement Analysis & BPR)</h2>
+            <p>確認方向後，針對特定問題流程進行 BPR，並設計改進後流程與高層系統方案。</p>
+            <p><strong>交付物：</strong>《特定流程的改進後流程圖》與《針對性系統改進初步設計》</p>
+            <p><strong>核心優勢：</strong>明確未來流程框架與設計藍圖。</p>
+          </article>
+
+          <article class="flow-step">
+            <h2>STEP 03：原型製作 (Rapid Prototyping)</h2>
+            <p>快速搭建流程優化原型（Mockup），模擬未來操作介面與業務數據流向。</p>
+            <p><strong>交付物：</strong>可互動的《功能優化原型系統》</p>
+            <p><strong>核心優勢：</strong>所見即所得，管理層與一線可直接測試並修正理解誤差。</p>
+          </article>
+
+          <article class="flow-step">
+            <h2>STEP 04：測試與迭代 (Development, Testing & Iteration)</h2>
+            <p>基於測試反饋形成最終改進清單，調整原型後進行代碼封裝與發佈。</p>
+            <p><strong>交付物：</strong>《最終改進清單》、《特定流程優化組件》、《用戶接收測試報告》</p>
+            <p><strong>核心優勢：</strong>前置原型驗證使開發品質優於傳統 IT 交付方式。</p>
+          </article>
+
+          <article class="flow-step">
+            <h2>STEP 05：平滑切換與全球運維 (Go-Live & Global Maintenance)</h2>
+            <p>協助平滑上線，轉入長期運維，持續修復細節問題並優化穩定性。</p>
+            <p><strong>交付物：</strong>系統正式上線運行</p>
+          </article>
+        </div>
+
+        <section class="diagram-box">
+          <h2>流程圖（Agile Implementation Map）</h2>
+          <svg viewBox="0 0 1180 250" role="img" aria-label="五步敏捷實施流程圖">
+            <defs>
+              <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+                <path d="M0,0 L0,6 L9,3 z" fill="#40617a" />
+              </marker>
+            </defs>
+            <g>
+              <rect x="20" y="60" width="200" height="95" rx="14" class="node" />
+              <text x="35" y="92">01 Consultation</text>
+              <text x="35" y="118">Initial process review</text>
+
+              <line x1="220" y1="106" x2="252" y2="106" class="arrow" marker-end="url(#arrow)" />
+
+              <rect x="260" y="60" width="200" height="95" rx="14" class="node" />
+              <text x="275" y="92">02 Analysis & BPR</text>
+              <text x="275" y="118">Future-state process map</text>
+
+              <line x1="460" y1="106" x2="492" y2="106" class="arrow" marker-end="url(#arrow)" />
+
+              <rect x="500" y="60" width="200" height="95" rx="14" class="node" />
+              <text x="515" y="92">03 Prototyping</text>
+              <text x="515" y="118">Interactive mockup</text>
+
+              <line x1="700" y1="106" x2="732" y2="106" class="arrow" marker-end="url(#arrow)" />
+
+              <rect x="740" y="60" width="200" height="95" rx="14" class="node" />
+              <text x="755" y="92">04 Test & Iterate</text>
+              <text x="755" y="118">Final improvement list</text>
+
+              <line x1="940" y1="106" x2="972" y2="106" class="arrow" marker-end="url(#arrow)" />
+
+              <rect x="980" y="60" width="180" height="95" rx="14" class="node" />
+              <text x="995" y="92">05 Go-Live</text>
+              <text x="995" y="118">Global maintenance</text>
+            </g>
+          </svg>
+        </section>
+
+        <section class="diagram-box">
+          <h2>預定下一步 Session</h2>
+          <p>可選擇「線上預錄介紹」或「Teams 洽談」，提交後會生成雙方郵箱郵件草稿。</p>
+          <form id="booking-form" class="form-grid">
+            <label>
+              Session 類型
+              <select name="sessionType" required>
+                <option value="預錄介紹">線上預錄介紹</option>
+                <option value="Teams 洽談">Teams 洽談要求</option>
+              </select>
+            </label>
+            <label>
+              希望時間
+              <input type="text" name="preferredTime" placeholder="例如：2026-05-25 15:00 HKT" required />
+            </label>
+            <label>
+              補充需求
+              <textarea name="notes" rows="4" placeholder="例如：希望先看製造業案例與合規架構"></textarea>
+            </label>
+            <button class="btn primary" type="submit">送出預定（生成郵件）</button>
+          </form>
+          <p id="booking-msg" class="msg"></p>
+        </section>
+
+        <section class="diagram-box">
+          <h2>推薦積分與小額諮詢</h2>
+          <p>推薦其他 CIO 註冊後，對方完成郵箱驗證並通過信息審核，新註冊用戶可獲得 500 積分，推薦人可額外獲得 200 積分。</p>
+
+          <div class="points-grid">
+            <article class="points-card">
+              <p class="points-label">目前積分</p>
+              <p id="points-balance" class="points-balance">0</p>
+              <p class="points-tip">新註冊審核通過送 500；成功推薦再送 200</p>
+            </article>
+            <article class="points-card">
+              <p class="points-label">可兌換小額諮詢</p>
+              <div class="points-catalog">
+                <p>30 分鐘流程問答：120 積分</p>
+                <p>45 分鐘系統定位：180 積分</p>
+                <p>60 分鐘專項顧問：260 積分</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="points-grid">
+            <article class="points-card">
+              <h3>推薦企業客戶</h3>
+              <form id="referral-form" class="form-grid compact-form">
+                <label>
+                  被推薦公司名稱
+                  <input type="text" name="referredCompany" placeholder="例如：ABC Manufacturing Ltd." required />
+                </label>
+                <label>
+                  聯絡人姓名
+                  <input type="text" name="referredContact" placeholder="例如：王經理 / John Smith" required />
+                </label>
+                <label>
+                  聯絡人企業郵箱
+                  <input type="email" name="referredEmail" placeholder="name@company.com" required />
+                </label>
+                <label>
+                  聯絡人電話
+                  <input type="text" name="referredPhone" placeholder="例如：+852 1234 5678" />
+                </label>
+                <label>
+                  需求方向
+                  <input type="text" name="interestArea" placeholder="例如：SAP 優化、Dynamics 365 升級、跨系統整合" required />
+                </label>
+                <label>
+                  補充說明
+                  <textarea name="referralNotes" rows="4" placeholder="例如：對方目前正評估全球模板或亞洲 roll-out"></textarea>
+                </label>
+                <button class="btn primary" type="submit">提交 CIO 推薦</button>
+              </form>
+              <p id="referral-msg" class="msg"></p>
+            </article>
+
+            <article class="points-card">
+              <h3>積分兌換小額諮詢</h3>
+              <form id="redeem-form" class="form-grid compact-form">
+                <label>
+                  兌換項目
+                  <select name="rewardCode" required>
+                    <option value="consult-30">30 分鐘流程問答（120 積分）</option>
+                    <option value="consult-45">45 分鐘系統定位（180 積分）</option>
+                    <option value="consult-60">60 分鐘專項顧問（260 積分）</option>
+                  </select>
+                </label>
+                <label>
+                  希望主題
+                  <input type="text" name="redeemTopic" placeholder="例如：MM 採購異常分析、Oracle 升級前評估" required />
+                </label>
+                <label>
+                  希望時段
+                  <input type="text" name="preferredWindow" placeholder="例如：下週三 15:00 HKT / 本月底前" required />
+                </label>
+                <label>
+                  補充需求
+                  <textarea name="redeemNotes" rows="4" placeholder="例如：請先看現有痛點與錯誤截圖"></textarea>
+                </label>
+                <button class="btn primary" type="submit">提交兌換申請</button>
+              </form>
+              <p id="redeem-msg" class="msg"></p>
+            </article>
+          </div>
+
+          <div class="points-card">
+            <h3>積分紀錄</h3>
+            <div id="points-history" class="points-history"></div>
+          </div>
+
+        </section>
+
+        <section class="diagram-box">
+          <h2>積分訂單與服務確認</h2>
+          <p>可先建立服務訂單並填寫諮詢內容，待客戶確認服務後才正式扣除積分。目前先上線一個項目「諮詢」，未來可擴充更多服務與不同價格。當前諮詢扣點：<strong><span id="consultation-cost-display">120</span> 積分</strong></p>
+
+          <div class="points-grid">
+            <article class="points-card">
+              <h3>建立我的訂單</h3>
+              <form id="order-form" class="form-grid compact-form">
+                <label>
+                  服務項目
+                  <select name="serviceCode" required>
+                    <option value="">請選擇服務</option>
+                  </select>
+                </label>
+                <label>
+                  諮詢內容 / 備註
+                  <textarea name="orderNotes" rows="4" placeholder="請填寫本次希望討論的流程、問題、背景與預期輸出" required></textarea>
+                </label>
+                <button class="btn primary" type="submit">生成訂單</button>
+              </form>
+              <p id="order-msg" class="msg"></p>
+            </article>
+
+            <article id="superuser-order-panel" class="points-card hidden">
+              <h3>Superuser 代客建單</h3>
+              <p class="tip">此區僅供 superuser 為已核准企業客戶建立待確認服務訂單。</p>
+              <form id="superuser-order-form" class="form-grid compact-form">
+                <label>
+                  目標客戶
+                  <select name="targetCustomerEmail" required>
+                    <option value="">請選擇已核准客戶</option>
+                  </select>
+                </label>
+                <label>
+                  服務項目
+                  <select name="serviceCode" required>
+                    <option value="">請選擇服務</option>
+                  </select>
+                </label>
+                <label>
+                  諮詢內容 / 備註
+                  <textarea name="orderNotes" rows="4" placeholder="請填寫為客戶預建的諮詢內容與服務說明" required></textarea>
+                </label>
+                <button class="btn primary" type="submit">替客戶生成訂單</button>
+              </form>
+              <p id="superuser-order-msg" class="msg"></p>
+            </article>
+
+            <article id="service-config-panel" class="points-card hidden">
+              <h3>服務積分設定</h3>
+              <p class="tip">你可以在這裡自行調整「諮詢」對應的積分消耗。之後若新增更多服務，可沿用同一套邏輯擴充。</p>
+              <form id="service-config-form" class="form-grid compact-form">
+                <label>
+                  諮詢顯示名稱
+                  <input type="text" name="serviceName" value="諮詢" required />
+                </label>
+                <label>
+                  諮詢消耗積分
+                  <input type="number" name="serviceCost" min="1" step="1" value="120" required />
+                </label>
+                <button class="btn primary" type="submit">保存設定</button>
+              </form>
+              <p id="service-config-msg" class="msg"></p>
+            </article>
+
+            <article id="role-management-panel" class="points-card hidden">
+              <h3>權限配置（Superuser）</h3>
+              <p class="tip">Superuser 可授予或終止 admin 權限；admin 才可下載用戶數據。</p>
+              <form id="role-management-form" class="form-grid compact-form">
+                <label>
+                  目標用戶
+                  <select id="role-target-email" name="targetEmail" required>
+                    <option value="">請選擇已核准客戶</option>
+                  </select>
+                </label>
+                <button class="btn primary" type="submit">授予 Admin 權限</button>
+              </form>
+              <div id="admin-role-list" class="review-list"></div>
+              <p id="role-management-msg" class="msg"></p>
+            </article>
+
+            <article id="admin-download-panel" class="points-card hidden">
+              <h3>用戶數據導出（Admin）</h3>
+              <p class="tip">僅 Admin 可下載；Superuser 不具備下載權限。</p>
+              <button id="download-users-btn" class="btn primary" type="button">下載用戶數據 CSV</button>
+              <p id="download-users-msg" class="msg"></p>
+            </article>
+          </div>
+
+          <div class="points-card">
+            <h3>我的服務訂單</h3>
+            <div id="orders-list" class="orders-list"></div>
+          </div>
+        </section>
+
+        <section class="diagram-box">
+          <h2>To B 流程與問題詢價</h2>
+          <p>請填寫系統與環境資訊，我們會依你的問題流程與系統現況安排後續評估。</p>
+          <form id="b2b-inquiry-form" class="form-grid">
+            <label>
+              問題系統
+              <input
+                type="text"
+                name="system"
+                placeholder="請輸入或搜尋，例如：SAP、ORACLE、IFS"
+                autocomplete="off"
+                data-searchable="system"
+                required
+              />
+            </label>
+            <label class="conditional-field hidden" data-conditional="system-other">
+              其他系統
+              <input type="text" name="systemOther" placeholder="請輸入系統名稱" />
+            </label>
+            <label>
+              具體產品
+              <input
+                type="text"
+                name="product"
+                placeholder="請輸入或搜尋，例如：SAP S/4HANA、Oracle EBS、IFS Cloud、Microsoft Dynamics 365"
+                autocomplete="off"
+                data-searchable="product"
+                required
+              />
+            </label>
+            <label>
+              具體版本
+              <input type="text" name="productVersion" placeholder="例如：S/4HANA 2023 FPS01" required />
+            </label>
+            <label>
+              操作系統
+              <input type="text" name="operatingSystem" placeholder="例如：RHEL 8 / Windows Server 2022" required />
+            </label>
+            <label>
+              數據庫版本
+              <input type="text" name="databaseVersion" placeholder="例如：SAP HANA 2.0 SPS07 / Oracle 19c" required />
+            </label>
+            <label>
+              ERP 標準功能模塊 / 流程
+              <input
+                type="text"
+                name="sapModule"
+                placeholder="請輸入或搜尋對應 ERP 的標準流程 / 模塊，例如 SAP、Oracle、IFS、Infor、Dynamics 365"
+                autocomplete="off"
+                data-searchable="sap-module"
+                required
+              />
+            </label>
+            <label class="conditional-field hidden" data-conditional="module-other">
+              其他模塊 / 流程
+              <input type="text" name="sapModuleOther" placeholder="請輸入模塊或流程名稱" />
+            </label>
+            <label>
+              問題描述
+              <textarea name="problemDescription" rows="4" placeholder="請描述具體流程痛點、錯誤現象或期望改進方向" required></textarea>
+            </label>
+            <button class="btn primary" type="submit">提交詢價</button>
+          </form>
+          <p id="b2b-inquiry-msg" class="msg"></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

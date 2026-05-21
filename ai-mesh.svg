@@ -1,0 +1,28 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#CED6D2"/>
+  <g opacity="0.35">
+    <circle cx="240" cy="180" r="4" fill="#5F7584"/>
+    <circle cx="380" cy="210" r="6" fill="#5F7584"/>
+    <circle cx="560" cy="190" r="5" fill="#5F7584"/>
+    <circle cx="740" cy="240" r="5" fill="#5F7584"/>
+    <circle cx="930" cy="220" r="4" fill="#5F7584"/>
+    <circle cx="310" cy="360" r="5" fill="#8EA39A"/>
+    <circle cx="520" cy="380" r="6" fill="#8EA39A"/>
+    <circle cx="690" cy="390" r="4" fill="#8EA39A"/>
+    <circle cx="860" cy="420" r="5" fill="#8EA39A"/>
+    <circle cx="420" cy="560" r="4" fill="#B08F7A"/>
+    <circle cx="620" cy="560" r="6" fill="#B08F7A"/>
+    <circle cx="820" cy="590" r="4" fill="#B08F7A"/>
+  </g>
+  <g stroke="#546975" stroke-opacity="0.4" stroke-width="2">
+    <path d="M240 180L380 210L560 190L740 240L930 220"/>
+    <path d="M380 210L310 360L520 380L690 390L860 420"/>
+    <path d="M310 360L420 560L620 560L820 590"/>
+    <path d="M560 190L520 380L620 560"/>
+    <path d="M740 240L690 390L820 590"/>
+  </g>
+  <g opacity="0.25">
+    <ellipse cx="950" cy="660" rx="220" ry="120" fill="#5F7584"/>
+    <ellipse cx="180" cy="90" rx="220" ry="120" fill="#B08F7A"/>
+  </g>
+</svg>

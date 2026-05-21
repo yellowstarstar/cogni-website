@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>原廠合作登入 | 敏捷實施法門戶</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell center">
+      <section class="card form-card">
+        <h1>原廠合作登入</h1>
+        <p>僅已完成企業郵箱驗證且通過啟用的原廠合作夥伴可登入查看專屬內容。</p>
+
+        <form id="manufacturer-login-form" class="form-grid">
+          <label>
+            企業郵箱
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            密碼
+            <input type="password" name="password" required />
+          </label>
+          <button class="btn primary" type="submit">登入</button>
+        </form>
+
+        <p id="manufacturer-login-msg" class="msg"></p>
+        <div class="actions">
+          <a class="btn" href="./manufacturer-register.html">先申請原廠合作</a>
+          <a class="btn subtle" href="./index.html">返回入口</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

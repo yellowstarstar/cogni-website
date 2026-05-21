@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>原廠合作專區</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="card">
+        <div class="top-bar">
+          <div>
+            <p class="badge">Manufacturer Partner Access</p>
+            <h1>原廠合作專區</h1>
+          </div>
+          <button id="manufacturer-logout-btn" class="btn">登出</button>
+        </div>
+
+        <section class="diagram-box">
+          <h2>專屬內容入口</h2>
+          <p>此區提供原廠合作夥伴的啟動資料、合作流程摘要與後續內容入口。後續可在此放置專屬文件、影片與協作說明。</p>
+          <div class="session-grid">
+            <article class="session-card">
+              <h3>合作啟動說明</h3>
+              <p>原廠合作框架、技術對接節點與商務流程摘要。</p>
+              <p class="release-tag">Coming Soon</p>
+            </article>
+            <article class="session-card">
+              <h3>原廠協作資源</h3>
+              <p>未來將放置專屬 onboarding 影片、方案素材與流程模板。</p>
+              <p class="release-tag">Coming Soon</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="diagram-box">
+          <h2>原廠封裝增強包詢價</h2>
+          <p>原廠合作夥伴可就已封裝的增強包提出詢價與對接需求。</p>
+          <form id="manufacturer-inquiry-form" class="form-grid">
+            <label>
+              詢價增強包
+              <input
+                type="text"
+                name="packageName"
+                placeholder="請輸入或搜尋增強包名稱"
+                autocomplete="off"
+                data-searchable="package"
+                required
+              />
+            </label>
+            <label class="conditional-field hidden" data-conditional="package-other">
+              其他增強包
+              <input type="text" name="packageOther" placeholder="請輸入增強包名稱" />
+            </label>
+            <label>
+              目標系統 / 產品
+              <input
+                type="text"
+                name="targetSystem"
+                placeholder="請輸入或搜尋，例如：SAP S/4HANA / Oracle Fusion / IFS Cloud"
+                autocomplete="off"
+                data-searchable="target-system"
+                required
+              />
+            </label>
+            <label>
+              目標版本
+              <input type="text" name="targetVersion" placeholder="例如：S/4HANA 2022 / Oracle 19c" required />
+            </label>
+            <label>
+              合作訴求
+              <textarea name="inquiryNotes" rows="4" placeholder="請描述詢價背景、導入目標與商務需求" required></textarea>
+            </label>
+            <button class="btn primary" type="submit">提交詢價</button>
+          </form>
+          <p id="manufacturer-inquiry-msg" class="msg"></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

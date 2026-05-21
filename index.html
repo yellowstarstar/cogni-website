@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CogniPlatforms | 科智極</title>
+    <meta
+      name="description"
+      content="科智極（CogniPlatforms）是一家 AI 驅動營運、面向全球的科技公司，為企業與個人提供快速產品化解決方案。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-orb" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#" class="brand" data-i18n="brand">CogniPlatforms | 科智極</a>
+        <nav class="main-nav">
+          <a href="#about" data-tab="about" data-i18n="nav.about">About</a>
+          <a href="#to-c-service" data-tab="serviceC" data-i18n="nav.serviceC">End Users</a>
+          <a href="#to-b-service" data-tab="serviceB" data-i18n="nav.serviceB">Enterprise Service</a>
+          <a href="#oem-partnership" data-tab="oem" data-i18n="nav.oem">OEM Corporation</a>
+          <a href="#contact" data-tab="contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="lang-wrap">
+          <label for="lang-switch" data-i18n="lang.label">Language</label>
+          <select id="lang-switch" aria-label="Language switcher">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="zh-CN">简体中文</option>
+            <option value="zh-TW">繁體中文</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container reveal" data-panel-groups="about">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Enterprise AI Platform Consulting</p>
+          <h1 data-i18n="hero.title">Build future-ready digital operations with trusted AI architecture.</h1>
+          <p class="lead" data-i18n="hero.lead">
+            We design enterprise web experiences and AI-enabled workflows that look credible, scale globally, and convert business opportunities.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-i18n="hero.ctaPrimary">Book Consultation</a>
+            <a class="btn btn-ghost" href="#services" data-i18n="hero.ctaSecondary">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="chip" data-i18n="hero.visualTag">AI Workflow Matrix</div>
+          <div class="visual-core"></div>
+        </div>
+      </section>
+
+      <section class="container metrics reveal" data-panel-groups="about">
+        <article>
+          <p class="metric-value" data-i18n="metrics.value.uptime">15 mins</p>
+          <p class="metric-label" data-i18n="metrics.uptime">Global availability architecture</p>
+        </article>
+        <article>
+          <p class="metric-value" data-i18n="metrics.value.velocity">5 Steps</p>
+          <p class="metric-label" data-i18n="metrics.velocity">Faster deployment with cloud-native workflows</p>
+        </article>
+        <article>
+          <p class="metric-value" data-i18n="metrics.value.support">Minimun Reimplementation</p>
+          <p class="metric-label" data-i18n="metrics.support">Operational visibility and support readiness</p>
+        </article>
+      </section>
+
+      <section id="about" class="container panel reveal" data-panel-groups="about">
+        <h2 data-i18n="about.title">A strategic partner for enterprise-scale digital transformation</h2>
+        <p data-i18n="about.body">
+          From executive messaging to productized service pages, we translate complexity into clarity so your clients can trust your capability in seconds.
+        </p>
+      </section>
+
+      <section class="container enterprise-top reveal" data-panel-groups="serviceB">
+        <article id="to-b-service" class="card enterprise-main">
+          <h3 data-i18n="audience.b2b.title">enterprise service</h3>
+          <p class="release-tag" data-i18n="audience.b2b.tagline">Precision ERP optimization, no blind rebuilds.</p>
+          <p data-i18n="audience.b2b.body">Enterprise consultation, process optimization, and project onboarding follow the B2B flow under cogniplatforms.com.</p>
+          <p data-i18n="audience.b2b.extra">We optimize painful workflows without forcing a full rebuild.</p>
+          <p class="b2b-link-row"><a href="https://cogniplatforms.com" target="_blank" rel="noreferrer" data-i18n="audience.b2b.link">Go to B2B platform</a></p>
+          <p class="release-tag" data-i18n="register.enterprise">CIO club註冊</p>
+        </article>
+
+        <section id="enterprise-promo" class="panel promo-spotlight promo-vertical">
+          <h2 data-i18n="promo.title">Enterprise Enrollment and Promotions</h2>
+          <p data-i18n="promo.lead">
+            Join the CIO Club onboarding path and activate enterprise collaboration rewards for your team and referral partners.
+          </p>
+          <div class="promo-grid">
+            <article class="promo-card">
+              <h3 data-i18n="promo.item1.title">CIO Club Registration</h3>
+              <p data-i18n="promo.item1.body">Submit company details for review and unlock the enterprise service workspace after approval.</p>
+            </article>
+            <article class="promo-card">
+              <h3 data-i18n="promo.item2.title">Approval Reward</h3>
+              <p data-i18n="promo.item2.body">Each newly approved enterprise account receives 500 points for initial service redemption.</p>
+            </article>
+            <article class="promo-card">
+              <h3 data-i18n="promo.item3.title">Referral Bonus</h3>
+              <p data-i18n="promo.item3.body">Approved referrals grant the referrer an additional 200 points to accelerate campaign launches.</p>
+            </article>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="./secure-portal/register.html" data-i18n="promo.ctaPrimary">Register for CIO Club</a>
+            <a class="btn btn-ghost" href="https://cogniplatforms.com" target="_blank" rel="noreferrer" data-i18n="promo.ctaSecondary">View Enterprise Services</a>
+          </div>
+
+          <div class="metrics metrics-compact">
+            <article>
+              <p class="metric-value" data-i18n="metrics.value.velocity">5 Steps</p>
+              <p class="metric-label" data-i18n="metrics.velocity">Faster deployment with cloud-native workflows</p>
+            </article>
+            <article>
+              <p class="metric-value" data-i18n="metrics.value.support">Minimun Reimplementation</p>
+              <p class="metric-label" data-i18n="metrics.support">Operational visibility and support readiness</p>
+            </article>
+          </div>
+
+          <section id="b2b-sessions" class="embedded-workshop">
+            <h2 data-i18n="sessions.title">Workshop Video Content</h2>
+            <p data-i18n="sessions.lead"></p>
+            <div class="session-actions">
+              <a
+                class="btn btn-ghost"
+                href="https://www.youtube.com/@CogniPlatforms"
+                target="_blank"
+                rel="noreferrer"
+                data-i18n="sessions.channelLink"
+                >Open CogniPlatforms on YouTube</a
+              >
+            </div>
+            <div class="session-grid">
+              <article class="session-card">
+                <h3 data-i18n="sessions.item1.title">Executive Briefing Series</h3>
+                <p data-i18n="sessions.item1.body"></p>
+                <div class="video-placeholder">
+                  <p data-i18n="sessions.youtubePlaceholder"></p>
+                </div>
+                <p class="release-tag" data-i18n="sessions.coming">Coming Soon</p>
+              </article>
+              <article class="session-card">
+                <h3 data-i18n="sessions.item2.title">Implementation Deep Dive</h3>
+                <p data-i18n="sessions.item2.body"></p>
+                <div class="video-placeholder">
+                  <p data-i18n="sessions.youtubePlaceholder"></p>
+                </div>
+                <p class="release-tag" data-i18n="sessions.coming">Coming Soon</p>
+              </article>
+            </div>
+          </section>
+        </section>
+      </section>
+
+      <section id="services" class="container cards reveal" data-panel-groups="serviceC">
+        <article id="to-c-service" class="card" data-panel-groups="serviceC">
+          <h3 data-i18n="audience.b2c.title">End users</h3>
+          <p data-i18n="audience.b2c.body">Product registration for individual users is not handled on this corporate site and will be routed to cogni-coding.com.</p>
+        </article>
+        <article id="to-c-visual" class="card app-showcase" data-panel-groups="serviceC">
+          <p class="visual-lead" data-i18n="audience.b2c.visual.lead">A lightweight family and personal productivity stack.</p>
+          <div class="app-icon-grid" aria-hidden="true">
+            <span class="app-icon shape-soft-square glyph-note" title="memo"><span class="app-letter letter-v1">N</span></span>
+            <span class="app-icon shape-pill glyph-check" title="planner"><span class="app-letter letter-v2">PL</span></span>
+            <span class="app-icon shape-circle glyph-mail" title="mail"><span class="app-letter letter-v3">MXR</span></span>
+            <span class="app-icon shape-cut glyph-browser" title="browser"><span class="app-letter letter-v4">B</span></span>
+            <span class="app-icon shape-drop glyph-coin" title="budget"><span class="app-letter letter-v5">BD</span></span>
+            <span class="app-icon shape-hex glyph-home" title="home"><span class="app-letter letter-v6">HMX</span></span>
+            <span class="app-icon shape-soft-square glyph-book" title="study"><span class="app-letter letter-v7">S</span></span>
+            <span class="app-icon shape-rounded-diamond glyph-focus" title="focus"><span class="app-letter letter-v8">FC</span></span>
+            <span class="app-icon shape-pill glyph-pin" title="travel"><span class="app-letter letter-v9">TRV</span></span>
+            <span class="app-icon shape-circle glyph-photo" title="photo"><span class="app-letter letter-v10">P</span></span>
+            <span class="app-icon shape-cut glyph-doc" title="doc"><span class="app-letter letter-v11">DOC</span></span>
+            <span class="app-icon shape-blob glyph-sync" title="sync"><span class="app-letter letter-v12">SY</span></span>
+          </div>
+        </article>
+      </section>
+
+      <section id="oem-partnership" class="container panel reveal" data-panel-groups="oem">
+        <p data-i18n="oem.topNote"></p>
+        <p data-i18n="oem.lead">
+          Original manufacturers can register for technical and commercial cooperation. Applications require review approval before activation.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="./secure-portal/manufacturer-register.html" data-i18n="oem.cta">Register as Manufacturer Partner</a>
+        </div>
+      </section>
+
+      <section id="marketplace" class="container panel reveal" data-panel-groups="serviceC">
+        <h2 data-i18n="marketplace.title">To C Product Marketplace</h2>
+        <p data-i18n="marketplace.lead">
+          Discover all consumer-facing applications in one place. Mobile apps and PC applications will be listed here.
+        </p>
+        <div class="marketplace-grid">
+          <article class="market-card">
+            <h3 data-i18n="marketplace.mobile.title">Mobile Apps</h3>
+            <p data-i18n="marketplace.mobile.subtitle">iOS / Android</p>
+            <p class="release-tag" data-i18n="marketplace.tbr">To Be Released</p>
+          </article>
+          <article class="market-card">
+            <h3 data-i18n="marketplace.pc.title">PC Applications</h3>
+            <p data-i18n="marketplace.pc.subtitle">Windows / macOS</p>
+            <p class="release-tag" data-i18n="marketplace.tbr">To Be Released</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="container cta reveal" data-panel-groups="contact">
+        <h2 data-i18n="contact.title">Ready to launch your multilingual enterprise website</h2>
+        <p data-i18n="contact.body">Share your company profile, service list, and contact details. We will turn this demo into a production-ready release.</p>
+        <a class="btn btn-primary" href="mailto:sales@cogniplatforms.com" data-i18n="contact.cta">Contact Us</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p data-i18n="footer.text">© 2026 科智極 CogniPlatforms. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
