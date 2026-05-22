@@ -388,7 +388,7 @@ html[lang="en"] #to-b-service .release-tag,
 html[lang="fr"] #to-b-service .release-tag,
 html[lang="de"] #to-b-service .release-tag {
   margin-top: 0.65rem;
-  font-size: 0.8rem;
+  font-size: 1.02rem;
 }
 
 .card p,
@@ -1033,13 +1033,13 @@ html[lang="de"] #enterprise-promo .embedded-workshop .video-placeholder {
 
 .embedded-workshop .release-tag {
   margin-top: 0.5rem;
-}
+  }
 
 html[lang="en"] #enterprise-promo .embedded-workshop .release-tag,
 html[lang="fr"] #enterprise-promo .embedded-workshop .release-tag,
 html[lang="de"] #enterprise-promo .embedded-workshop .release-tag {
   margin-top: 0.12rem;
-  font-size: 0.74rem;
+  font-size: 1.02rem;
 }
 
 .promo-card {

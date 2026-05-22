@@ -6,11 +6,11 @@ const translations = {
     'nav.serviceC': 'End Users',
     'nav.serviceB': 'Enterprise Service',
     'nav.oem': 'OEM Corporation',
-    'nav.contact': 'Contact',
+    'nav.contact': 'Contact Us',
     'hero.eyebrow': 'A Global Efficiency Shift',
     'hero.title': 'AI-driven operations, globally connected, built for extreme efficiency.',
     'hero.lead': 'We are a leading digital technology innovator powered by AI-driven global operations and your trusted digital innovation partner. We incubate smart tools that improve daily efficiency for individual users worldwide, and provide precision system-tuning solutions that target enterprise pain points.',
-    'hero.ctaPrimary': 'Book Consultation',
+    'hero.ctaPrimary': 'Book a Service',
     'hero.ctaSecondary': 'Explore Services',
     'hero.visualTag': 'Micro-Optimization Studio',
     'metrics.uptime': 'Each tool saves about 15 minutes in daily flow',
@@ -26,7 +26,7 @@ const translations = {
     'services.s2.title': 'AI Process Enablement',
     'services.s2.body': 'Integrate AI copilots, knowledge workflows, and data interaction layers across business teams.',
     'services.s3.title': 'Cloudflare Native Delivery',
-    'services.s3.body': 'Serverless deployment with resilient global performance, secure edge routing, and simplified operations.',
+    'services.s3.body': 'Serverless deploymen好了，t with resilient global performance, secure edge routing, and simplified operations.',
     'domains.title': 'Three-domain strategy for a unified global identity',
     'domains.item1': '<strong>Main website:</strong> Use one .com domain as your canonical corporate domain.',
     'domains.item2': '<strong>Regional market:</strong> Use .com.hk for Hong Kong-focused content or locale entry.',
@@ -76,6 +76,7 @@ const translations = {
     'contact.title': 'Ready to experience change?',
     'contact.body': 'Whether you are looking for better daily-life tools or planning a micro-invasive ERP optimization, contact our team anytime.<br>For enterprise consultation: sales@cogniplatforms.com',
     'contact.cta': 'Contact Us',
+      'contact.cta': 'Get a Quote',
     'footer.text': '© 2026 CogniPlatforms / Cognicode. All rights reserved.'
   },
   fr: {
@@ -85,11 +86,11 @@ const translations = {
     'nav.serviceC': 'Utilisateurs finaux',
     'nav.serviceB': 'Service entreprise',
     'nav.oem': 'OEM Corporation',
-    'nav.contact': 'Contact',
+    'nav.contact': 'Contactez-nous',
     'hero.eyebrow': 'Un elan mondial pour l efficacite',
     'hero.title': 'Construisez des operations numeriques evolutives avec une architecture IA fiable.',
     'hero.lead': 'Nous sommes un innovateur numerique de reference, porte par des operations mondiales pilotees par l IA, et votre partenaire de confiance pour l innovation digitale. Nous incubons des outils intelligents qui ameliorent l efficacite quotidienne des utilisateurs individuels a travers le monde, et proposons des solutions de reglages systeme de precision qui ciblent les points de douleur des entreprises.',
-    'hero.ctaPrimary': 'Reserver une consultation',
+    'hero.ctaPrimary': 'Réserver un service',
     'hero.ctaSecondary': 'Voir les services',
     'hero.visualTag': 'Atelier de micro-optimisation',
     'metrics.uptime': 'Chaque outil fait gagner environ 15 minutes au quotidien',
@@ -155,6 +156,7 @@ const translations = {
     'contact.title': 'Pret a transformer votre experience numerique ?',
     'contact.body': 'Que vous cherchiez de meilleurs outils du quotidien ou une optimisation ERP micro-invasive, contactez notre equipe.<br>Consultation entreprise : sales@cogniplatforms.com',
     'contact.cta': 'Nous contacter',
+      'contact.cta': 'Demander un devis',
     'footer.text': '© 2026 CogniPlatforms / Cognicode. Tous droits reserves.'
   },
   de: {
@@ -164,11 +166,11 @@ const translations = {
     'nav.serviceC': 'Endnutzer',
     'nav.serviceB': 'Enterprise Service',
     'nav.oem': 'OEM Corporation',
-    'nav.contact': 'Kontakt',
+    'nav.contact': 'Kontaktieren Sie uns',
     'hero.eyebrow': 'Globale Effizienzbewegung',
     'hero.title': 'Bauen Sie zukunftssichere digitale Ablaufe mit vertrauenswurdiger KI Architektur.',
     'hero.lead': 'Wir sind ein fuhrender digitaler Technologieinnovator mit KI-gestutzten globalen Ablaufen und Ihr verlasslicher Partner fur digitale Innovation. Wir inkubieren smarte Werkzeuge, die die tagliche Effizienz von Endnutzern weltweit steigern, und liefern prazise System-Tuning-Losungen, die konkrete Schmerzpunkte in Unternehmen adressieren.',
-    'hero.ctaPrimary': 'Beratung buchen',
+    'hero.ctaPrimary': 'Service buchen',
     'hero.ctaSecondary': 'Leistungen ansehen',
     'hero.visualTag': 'Micro-Optimierungsstudio',
     'metrics.uptime': 'Jedes Tool spart im Alltag rund 15 Minuten',
@@ -234,6 +236,7 @@ const translations = {
     'contact.title': 'Bereit fur eine spurbare Verbesserung?',
     'contact.body': 'Ob alltagstaugliche Tools oder eine mikroinvasive ERP-Optimierung: Kontaktieren Sie unser Team jederzeit.<br>Fur Enterprise-Beratung: sales@cogniplatforms.com',
     'contact.cta': 'Kontakt aufnehmen',
+      'contact.cta': 'Angebot anfordern',
     'footer.text': '© 2026 CogniPlatforms / Cognicode. Alle Rechte vorbehalten.'
   },
   'zh-CN': {
@@ -243,7 +246,7 @@ const translations = {
     'nav.serviceC': '个人用户',
     'nav.serviceB': '企业服务',
     'nav.oem': '原厂合作',
-    'nav.contact': '联系',
+    'nav.contact': '联系我们',
     'hero.eyebrow': '这是一场全球效率革命',
     'hero.title': 'AI 驱动运营，面向全球，追求极致敏捷与高效。',
     'hero.lead': '我们是一家 AI 驱动全球运营的领先数字科技创新者，也是您身边的数字化创新伙伴。我们为全球个人用户孵化提升日常效率的智慧工具，并为全球企业提供直击痛点的系统精准调理方案。',
@@ -313,6 +316,7 @@ const translations = {
     'contact.title': '准备好体验改变了吗？',
     'contact.body': '无论您是想寻找更好用的生活小工具，还是希望帮企业的 ERP 系统进行一场“微创优化”，欢迎随时与我们的团队联络。<br>立即咨询企业方案，请垂询：sales@cogniplatforms.com.cn',
     'contact.cta': '联系我们',
+      'contact.cta': '立即询价',
     'footer.text': '© 2026 科智极（CogniPlatforms / Cognicode）. 保留所有权利。'
   },
   'zh-TW': {
@@ -392,6 +396,7 @@ const translations = {
     'contact.title': '準備好體驗改變了嗎？',
     'contact.body': '無論您是想尋找更好用的生活小工具，還是希望幫企業的 ERP 系統進行一場「微創優化」，歡迎隨時與我們的團隊聯絡。<br>立即諮詢企業方案，請垂詢：sales@cogniplatforms.com.hk',
     'contact.cta': '聯絡我們',
+      'contact.cta': '立即詢價',
     'footer.text': '© 2026 科智極（CogniPlatforms / Cognicode）. 保留所有權利。'
   }
 };
