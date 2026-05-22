@@ -387,8 +387,15 @@ html[lang="de"] #to-b-service .b2b-link-row {
 html[lang="en"] #to-b-service .release-tag,
 html[lang="fr"] #to-b-service .release-tag,
 html[lang="de"] #to-b-service .release-tag {
-  margin-top: 0.65rem;
-  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: inherit;
+  text-transform: none;
+  color: var(--ink-soft);
+  border: none;
+  border-radius: 0;
+  display: block;
 }
 
 .card p,
@@ -1078,16 +1085,8 @@ html[lang="de"] #enterprise-promo .embedded-workshop .release-tag {
 }
 
 .release-tag {
-  display: inline-block;
-  margin-top: 0.9rem;
-    font-family: "Palatino Linotype", "Book Antiqua", serif;
-  border-radius: 999px;
-  border: 1px solid var(--line);
+  font-style: italic;
   color: var(--accent);
-  font-weight: 700;
-    font-family: "Century Gothic", "Segoe UI", sans-serif;
-    font-size: 1.02rem;
-  text-transform: uppercase;
 }
 
 .site-footer {
