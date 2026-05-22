@@ -454,6 +454,7 @@ function detectDefaultLang() {
   const host = window.location.hostname;
   if (host.endsWith('.com.hk')) return 'zh-TW';
   if (host.endsWith('.com.cn')) return 'zh-CN';
+  // 必須確保 .com.hk 不會被 .com 匹配覆蓋
   if (host.endsWith('.com')) return 'en';
   return 'en';
 }
