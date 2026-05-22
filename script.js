@@ -66,8 +66,8 @@ const translations = {
     'promo.item3.body': 'Approved referrals grant the referrer an additional 200 points to accelerate campaign launches.',
     'promo.ctaPrimary': 'Register for CIO Club',
     'promo.ctaSecondary': 'View Enterprise Services',
-    'marketplace.title': 'To C Product Marketplace',
-    'marketplace.lead': 'Discover all consumer-facing applications in one place. Mobile apps and PC applications will be listed here.',
+    'marketplace.title': 'Life exploring tool: Individual products download marketplace',
+    'marketplace.lead': 'Focusing on personal daily efficiency and experience optimization, we continuously launch lightweight, smart, and easy-to-use digital tools.',
     'marketplace.mobile.title': 'Mobile Apps',
     'marketplace.mobile.subtitle': 'iOS / Android',
     'marketplace.pc.title': 'PC Applications',
@@ -86,7 +86,7 @@ const translations = {
     'nav.serviceC': 'Utilisateurs finaux',
     'nav.serviceB': 'Service entreprise',
     'nav.oem': 'OEM Corporation',
-    'nav.contact': 'Contactez-nous',
+  'nav.contact': 'Contactez-nous',
     'hero.eyebrow': 'Un elan mondial pour l efficacite',
     'hero.title': 'Construisez des operations numeriques evolutives avec une architecture IA fiable.',
     'hero.lead': 'Nous sommes un innovateur numerique de reference, porte par des operations mondiales pilotees par l IA, et votre partenaire de confiance pour l innovation digitale. Nous incubons des outils intelligents qui ameliorent l efficacite quotidienne des utilisateurs individuels a travers le monde, et proposons des solutions de reglages systeme de precision qui ciblent les points de douleur des entreprises.',
@@ -123,7 +123,7 @@ const translations = {
     'audience.b2c.visual.lead': 'Une collection legere pour la vie familiale et la productivite personnelle.',
     'oem.topNote': 'Les ameliorations accumulees peuvent evoluer en produits standards du secteur, disponibles a plus grande echelle par achat ou abonnement.',
     'oem.title': 'Partenariat OEM Corporation',
-    'oem.lead': 'Les fabricants originaux peuvent s inscrire ici. La cooperation technique et commerciale demarre apres validation des informations.',
+    'oem.lead': 'Les fabricants originaux peuvent s’inscrire ici. La coopération technique et commerciale peut être initiée une fois les informations d’inscription validées.',
     'oem.cta': 'Inscription partenaire fabricant',
     'register.enterprise': 'Inscription CIO Club',
     'register.tag': 'Inscription',
@@ -146,8 +146,8 @@ const translations = {
     'promo.item3.body': 'Chaque recommandation approuvee accorde 200 points supplementaires au parrain pour accelerer ses campagnes.',
     'promo.ctaPrimary': 'S inscrire au CIO Club',
     'promo.ctaSecondary': 'Voir les services entreprise',
-    'marketplace.title': 'Marketplace produits To C',
-    'marketplace.lead': 'Retrouvez ici toutes les applications grand public. Les apps mobiles et PC seront listees dans cette zone.',
+    'marketplace.title': 'Outil d’exploration de la vie : place de marché de téléchargement de produits individuels',
+    'marketplace.lead': 'Axé sur l’efficacité et l’expérience quotidienne personnelle, lancement continu d’outils numériques légers, intelligents et faciles à prendre en main.',
     'marketplace.mobile.title': 'Applications mobiles',
     'marketplace.mobile.subtitle': 'iOS / Android',
     'marketplace.pc.title': 'Applications PC',
@@ -155,8 +155,7 @@ const translations = {
     'marketplace.tbr': 'A paraitre',
     'contact.title': 'Pret a transformer votre experience numerique ?',
     'contact.body': 'Que vous cherchiez de meilleurs outils du quotidien ou une optimisation ERP micro-invasive, contactez notre equipe.<br>Consultation entreprise : sales@cogniplatforms.com',
-    'contact.cta': 'Nous contacter',
-      'contact.cta': 'Demander un devis',
+  'contact.cta': 'Demander un devis',
     'footer.text': '© 2026 CogniPlatforms / Cognicode. Tous droits reserves.'
   },
   de: {
@@ -203,7 +202,7 @@ const translations = {
     'audience.b2c.visual.lead': 'Ein leichtes Set fur Familienalltag und personliche Produktivitat.',
     'oem.topNote': 'Kumulierte Verbesserungen konnen sich zu Branchenstandard Produkten entwickeln, die mehr Kunden kaufen oder abonnieren konnen.',
     'oem.title': 'OEM Corporation Partnerschaft',
-    'oem.lead': 'Originalhersteller konnen sich hier registrieren. Die technische und kommerzielle Zusammenarbeit startet nach Informationsprufung.',
+    'oem.lead': 'Originalhersteller können sich hier registrieren. Technische und kommerzielle Zusammenarbeit kann nach Überprüfung der Registrierungsinformationen eingeleitet werden.',
     'oem.cta': 'Herstellerpartner Registrierung',
     'register.enterprise': 'CIO Club Registrierung',
     'register.tag': 'Registrierung',
@@ -226,8 +225,8 @@ const translations = {
     'promo.item3.body': 'Freigegebene Empfehlungen bringen dem Empfehlenden zusatzlich 200 Punkte fur schnellere Kampagnenstarts.',
     'promo.ctaPrimary': 'Fur CIO Club registrieren',
     'promo.ctaSecondary': 'Enterprise Services ansehen',
-    'marketplace.title': 'To C Produkt Marktplatz',
-    'marketplace.lead': 'Alle verbraucherorientierten Anwendungen werden hier gesammelt. Mobile Apps und PC Anwendungen werden in diesem Bereich gelistet.',
+    'marketplace.title': 'Life-Exploring-Tool: Marktplatz für den Download individueller Produkte',
+    'marketplace.lead': 'Fokus auf persönliche Alltagseffizienz und Erlebnisoptimierung, kontinuierliche Einführung leichter, intelligenter und einfach zu bedienender digitaler Tools.',
     'marketplace.mobile.title': 'Mobile Apps',
     'marketplace.mobile.subtitle': 'iOS / Android',
     'marketplace.pc.title': 'PC Anwendungen',
@@ -235,8 +234,7 @@ const translations = {
     'marketplace.tbr': 'Wird veroeffentlicht',
     'contact.title': 'Bereit fur eine spurbare Verbesserung?',
     'contact.body': 'Ob alltagstaugliche Tools oder eine mikroinvasive ERP-Optimierung: Kontaktieren Sie unser Team jederzeit.<br>Fur Enterprise-Beratung: sales@cogniplatforms.com',
-    'contact.cta': 'Kontakt aufnehmen',
-      'contact.cta': 'Angebot anfordern',
+  'contact.cta': 'Angebot anfordern',
     'footer.text': '© 2026 CogniPlatforms / Cognicode. Alle Rechte vorbehalten.'
   },
   'zh-CN': {
@@ -459,6 +457,7 @@ function detectDefaultLang() {
   const host = window.location.hostname;
   if (host.endsWith('.com.hk')) return 'zh-TW';
   if (host.endsWith('.com.cn')) return 'zh-CN';
+  // 必須確保 .com.hk 不會被 .com 匹配覆蓋
   if (host.endsWith('.com')) return 'en';
   return 'en';
 }

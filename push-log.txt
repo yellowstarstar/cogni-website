@@ -1,0 +1,10 @@
+﻿git.exe : fatal: unable to access 'https://github.com/yellowstarstar/cogni-webs
+ite.git/': Failed to connect to github.com port 443 after 21087 ms: Could not c
+onnect to server
+At line:1 char:78
++ ... 业\睿思国际\網站'; & $gitCmd -C 'd:\创业\睿思国际\網站' push -u origin main *>&1 | O ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: unable t...nnect to server 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
