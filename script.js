@@ -462,7 +462,8 @@ function detectDefaultLang() {
   return 'en';
 }
 
-const preferred = localStorage.getItem('preferredLang') || detectDefaultLang();
+
+const preferred = detectDefaultLang();
 langSwitch.value = preferred;
 applyLanguage(preferred);
 
